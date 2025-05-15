@@ -1,0 +1,5 @@
+Using a terminal, type the following commands to build, link, and run the file.
+
+(build) nasm -f elf32 asciiTranslator.asm -o asciiTranslator.o
+(link) ld -m elf_i386 asciiTranslator.o -o asciiTranslator
+(run) ./asciiTranslator
