@@ -1,5 +1,7 @@
 # cmsc-313-asciiTranslator
 
-
-This program will produce/print out the number of bytes of data by translating each byte to ASCII. 
-What is printed is ASCII values of the bytes separated by commas.
+My program, asciiTranlator.asm translates bytes of data into ASCII values that are printed out. 
+It does this by moving data, copying it, and translating 4-bits at a time. Once it has translated an entire byte, it moves onto the next byte.
+This convert_loop loops until there it translates all the stored input bytes.
+After all the bytes have been translated into ASCII, outbuff is printed.
+Each value/pair is separated by commas.
